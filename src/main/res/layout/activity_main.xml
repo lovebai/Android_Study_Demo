@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:freezesText="false"
+                android:text="@string/hello"
+                android:textAllCaps="false"
+                android:textColor="#9575CD"
+                android:textIsSelectable="false"
+                android:gravity="center"
+                android:textSize="48sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/avatar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_below="@id/text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="#03A9F4"
+                    android:text="@string/button"
+                    android:textColor="@color/white" />
+
+
+                <Button
+                    android:id="@+id/button_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="#03A9F4"
+                    android:text="@string/user_login"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button_reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="#03A9F4"
+                    android:text="@string/user_reg"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll2"
+                android:layout_below="@+id/ll1"
+                android:padding="10dp"
+                >
+
+            <Button
+                android:id="@+id/goradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#03A9F4"
+                android:text="@string/go_radio"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/go_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#03A9F4"
+                android:text="@string/go_checkbox"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/go_images"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#03A9F4"
+                android:text="@string/go_images"
+                android:textColor="@color/white" />
+
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll3"
+        android:layout_below="@+id/ll2"
+        android:padding="10dp"
+        >
+            <Button
+                android:id="@+id/go_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#03A9F4"
+                android:text="@string/go_listView"
+                android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/grid_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#03A9F4"
+            android:text="@string/go_gview"
+            android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/recv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#03A9F4"
+                android:text="@string/go_recv"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll4"
+        android:layout_below="@+id/ll3"
+        android:padding="10dp"
+        >
+
+            <Button
+                android:id="@+id/go_toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#03A9F4"
+                android:text="ToastView"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/go_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#03A9F4"
+                android:text="Dialog"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/go_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#03A9F4"
+                android:text="Progress"
+                android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll5"
+        android:layout_below="@+id/ll4"
+        android:padding="10dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/dialog_1"
+            android:text="Custom"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/go_shared"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Shared"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/go_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="File"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

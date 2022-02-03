@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToastButtonActivity"
+    android:padding="15dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认样式"
+        android:id="@+id/btn_1"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="居中样式"
+        android:id="@+id/btn_2"
+        android:layout_below="@+id/btn_1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义样式"
+        android:id="@+id/btn_3"
+        android:layout_below="@+id/btn_2"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="封装工具类"
+        android:id="@+id/btn_4"
+        android:layout_below="@+id/btn_3"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

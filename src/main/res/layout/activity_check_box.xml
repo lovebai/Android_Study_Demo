@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_check_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你会哪些语言："
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#000"
+
+        />
+
+    <CheckBox
+        android:id="@+id/ck_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:layout_below="@id/tv_check_title"
+        />
+    <CheckBox
+        android:id="@+id/ck_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:layout_below="@id/ck_2"
+        />
+    <CheckBox
+        android:id="@+id/ck_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_below="@id/ck_3"
+        />
+    <CheckBox
+        android:id="@+id/ck_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:layout_below="@id/ck_4"
+        />
+    <CheckBox
+        android:id="@+id/ck_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他"
+        android:layout_below="@id/ck_5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ck_6"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/checkbox_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您的兴趣爱好是有哪些："
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/ck_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rap"
+            />
+        <CheckBox
+            android:id="@+id/ck_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳舞"
+            />
+        <CheckBox
+            android:id="@+id/ck_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打篮球"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

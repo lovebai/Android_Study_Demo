@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/lav_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:background="@color/gray"
+            android:layout_marginRight="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ltv_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这是标题"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/ltv_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2012-02-08 12:15:35"
+                android:textColor="@color/grey"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/ltv_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这里是内容"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

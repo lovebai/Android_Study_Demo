@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rg_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="男生"
+            android:checked="true"
+            android:textSize="18sp"
+            android:textColor="#009688"
+            />
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="女生"
+            android:textSize="18sp"
+            android:textColor="#FF9800"
+            />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="男生"
+            android:gravity="center"
+            android:button="@null"
+            android:background="@drawable/select_style"
+            android:textColor="#3F51B5"
+            android:textSize="18sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:checked="true"
+            android:text="女生"
+            android:button="@null"
+            android:background="@drawable/select_style"
+            android:gravity="center"
+            android:textColor="#3F51B5"
+            android:textSize="18sp"
+            />
+
+    </RadioGroup>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">第一个安卓应用</string>
+    <string name="hello">Hello World</string>
+    <string name="button">测试按钮</string>
+    <string name="avatar">用户头像</string>
+    <string name="user_login">用户登录</string>
+    <string name="login_text">登录页面</string>
+    <string name="user_reg">我的博客</string>
+    <string name="login">登录</string>
+    <string name="go_radio">GO单选框</string>
+    <string name="go_checkbox">Go复选框</string>
+    <string name="go_images">图片组件</string>
+    <string name="go_listView">ListView</string>
+    <string name="go_gview">网格布局</string>
+    <string name="go_recv">Recycler</string>
+</resources>
